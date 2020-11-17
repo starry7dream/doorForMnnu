@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登陆注册</title>
+    <link rel="stylesheet" href="./assets/style.css" th:href="@{/assets/style.css}">
+    <link rel="stylesheet" href="./assets/iconfont/iconfont.css" th:href="@{/assets/iconfont/iconfont.css}">
+</head>
+<body>
+    <div class="message" style="color:red;font-size: large" th:unless="${#strings.isEmpty(result)}" th:text="${result}"></div>
+    <div class='container' id='container'>
+        <div class="form-container sign-up-container">
+            <!-- 注册 -->
+           <form action="#" th:action="@{/register}" th:method="post">
+            <h1>用户注册</h1>
+            <input type="text" name="username" placeholder="姓名" required pattern=".{2,10}">
+            <input type="password" name="password" placeholder="密码" required pattern=".{3,15}">
+               <input type="text" name="college" placeholder="学院..慎重" required pattern=".{3,15}">
+               <input type="text" name="number" placeholder="学号..." required pattern=".{3,10}" title="请输入正确学号格式">
+               <input type="text" name="inviteCode" placeholder="邀请码" required pattern=".{3,12}">
+            <input type="email" name="email" placeholder="邮箱..(可以通知你)" required pattern=".{3,25}">
+               <button type="submit">注册</button>
+           </form>
+
+        </div>
+        <div class="form-container sign-in-container">
+            <!-- 登陆 -->
+            <form action="#" th:action="@{/login}" th:method="post">
+                <h1>用户登陆</h1>
+            <input type="text" placeholder="姓名" name="username">
+            <input type="password" placeholder="密码" name="password">
+            <a href="" onclick="fogetPwd()">忘记密码？</a>
+            <button>登陆</button>
+            </form>
+        </div>
+
+
+
+        <!-- 侧边栏内容 -->
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>已有帐号？</h1>
+                    <p>亲爱的快快点我去进行登陆吧。</p>
+                    <button class='ghost' id="signIn">登陆</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>免责声明</h1>
+                    <p>仅供个人学习使用,由此引起的一切后果均须自行承担责任，与本站无关。注册即同意条款</p>
+                    <button class='ghost' id="signUp">注册</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function fogetPwd() {
+        confirm("那你就忘记吧.....");
+    }
+</script>
+<script src="./assets/index.js" th:src="@{/assets/index.js}"></script>
+</html>

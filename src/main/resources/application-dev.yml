@@ -1,0 +1,18 @@
+spring:
+  datasource:
+#    password: 123456
+#    username: root
+#    url: jdbc:mysql://localhost:3306/mnnusystem
+    driver-class-name: com.mysql.jdbc.Driver
+  thymeleaf:
+    cache: false
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+mybatis:
+  mapper-locations: classpath:com/cj/dao/*.xml
+server:
+  port: 8886
+  servlet:
+    context-path: /starry

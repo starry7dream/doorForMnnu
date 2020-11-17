@@ -1,0 +1,105 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="renderer" content="webkit" />
+    <link href="http://dxg.mnnu.edu.cn/SPCP/Web/Content/css/index.css?v=20200528" rel="stylesheet" />
+    <script src="http://dxg.mnnu.edu.cn/SPCP/Web/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="http://dxg.mnnu.edu.cn/SPCP/Web/Scripts/validation.js?dt=20200520"></script>
+    <link href="http://dxg.mnnu.edu.cn/SPCP/Web/Scripts/layer/theme/default/layer.css" rel="stylesheet" />
+    <script src="http://dxg.mnnu.edu.cn/SPCP/Web/Scripts/layer/layer.js"></script>
+    <title>闽南师范大学-疫情防控管理平台</title>
+
+    <script type="text/javascript">
+        /*解决苹果返回不刷新问题*/
+        $(function () {
+            var isPageHide = false;
+            window.addEventListener('pageshow', function () {
+                if (isPageHide) {
+                    window.location.reload();
+                }
+            });
+            window.addEventListener('pagehide', function () {
+                isPageHide = true;
+            });
+        });
+    </script>
+</head>
+<body>
+    
+
+<div class="logo">
+    <img src="http://dxg.mnnu.edu.cn/SPCP/Web/Content/img/logo.png" />
+</div>
+<div class="container">
+    <div class="pad" >
+        <div class="infos">
+            <p class="title">进出场地监控卡</p>
+            <p class="info" id="myname" >姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：<span th:text="${session.user.username}">陈键</span></p>
+                <p class="info" id="number">学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号：<span th:text="${session.user.number}">1808190325</span></p>
+                <p class="info" id="part">所属学院：<span th:text="${session.user.college}">计算机学院</span></p>
+
+            <p class="info">场地名称：校门</p>
+            <p class="info">进出类型：进</p>
+            <p class="info" id="cardTIme">扫描时间：2020.10.17 20:02</p>
+        </div>
+        <div class="codebox">
+            <div class="codeimg">
+                <img src="img/GetQRCode.jpg" th:src="@{/img/GetQRCode.png}">
+            </div>
+            <div class="lb"></div>
+            <div class="rb"></div>
+        </div>
+    </div>
+</div>
+<link href="http://dxg.mnnu.edu.cn/SPCP/Web/Content/css/MonitoringCard.css?dt=202009210957" rel="stylesheet" />
+        <link href="http://dxg.mnnu.edu.cn/SPCP/Web/Content/css/menustyle.css?dt=20200429" rel="stylesheet" />
+        <script src="http://dxg.mnnu.edu.cn/SPCP/Web/Scripts/menu.js"></script>
+        <div id="cd-nav" class="is-fixed">
+            <a href="javascript:void(0)" class="cd-nav-trigger"><span></span></a>
+            <nav id="cd-main-nav">
+                <ul>
+                        <li>
+                            <a href="http://dxg.mnnu.edu.cn/SPCP/Web/Account/ChooseSys">
+                                <img src="http://dxg.mnnu.edu.cn/SPCP/Web/Content/img/icon1.png" /> 返回首页
+                            </a>
+                        </li>
+                                        <li>
+                        <a href="http://dxg.mnnu.edu.cn/SPCP/Web/Account/Logout">
+                            <img src="http://dxg.mnnu.edu.cn/SPCP/Web/Content/img/icon3.png" /> 安全退出
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    <script>
+        function dateFormat(fmt, date) {
+            let ret;
+            const opt = {
+                "Y+": date.getFullYear().toString(),        // 年
+                "m+": (date.getMonth() + 1).toString(),     // 月
+                "d+": date.getDate().toString(),            // 日
+                "H+": date.getHours().toString(),           // 时
+                "M+": date.getMinutes().toString(),         // 分
+                "S+": date.getSeconds().toString()          // 秒
+                // 有其他格式化字符需求可以继续添加，必须转化成字符串
+            };
+            for (let k in opt) {
+                ret = new RegExp("(" + k + ")").exec(fmt);
+                if (ret) {
+                    fmt = fmt.replace(ret[1], (ret[1].length == 1) ? (opt[k]) : (opt[k].padStart(ret[1].length, "0")))
+                };
+            };
+            return fmt;
+        }
+        let date =new Date()
+        console.log(dateFormat("YYYY.mm.dd HH:MM",date))
+
+        document.getElementById("cardTIme").innerHTML="扫描时间："+dateFormat("YYYY.mm.dd HH:MM",date)
+    </script>
+</body>
+</html>
+<!--第二版-->

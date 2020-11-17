@@ -1,0 +1,534 @@
+2020-11-10 08:52:14.696 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 4128 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 08:52:14.699 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 08:52:16.499 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 08:52:16.513 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 08:52:16.514 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 08:52:16.514 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 08:52:16.516 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 08:52:16.516 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 08:52:16.516 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 08:52:16.596 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 08:52:16.695 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 08:52:16.695 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1969 ms
+2020-11-10 08:52:16.749 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-11-10 08:52:16.789 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-10 08:56:15.939 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 20448 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 08:56:15.941 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 08:56:16.830 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 08:56:16.836 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 08:56:16.836 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 08:56:16.836 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 08:56:16.837 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 08:56:16.838 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 08:56:16.838 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 08:56:16.842 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 08:56:16.959 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 08:56:16.959 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 991 ms
+2020-11-10 08:56:17.836 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 08:56:17.912 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 08:56:18.247 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 08:56:18.275 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 08:56:18.304 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 2.841 seconds (JVM running for 3.731)
+2020-11-10 08:56:24.736 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 08:56:24.736 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 08:56:24.741 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-11-10 08:56:24.773 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 08:56:24.777 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 08:56:25.054 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 08:56:25.054 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 08:56:25.059 [http-nio-8080-exec-6] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 08:56:25.059 [http-nio-8080-exec-6] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 08:56:25.065 [http-nio-8080-exec-7] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 08:56:25.065 [http-nio-8080-exec-7] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 08:56:28.429 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 08:56:28.429 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 08:56:28.434 [http-nio-8080-exec-9] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 08:56:28.434 [http-nio-8080-exec-9] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 08:56:28.439 [http-nio-8080-exec-10] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 08:56:28.440 [http-nio-8080-exec-10] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 08:56:28.517 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 08:56:28.517 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 08:56:35.414 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 08:56:35.415 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 08:56:35.542 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 08:56:35.542 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 08:56:39.656 [http-nio-8080-exec-6] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[123, 1234, org.apache.catalina.session.StandardSessionFacade@6bafe526, {}]}
+2020-11-10 08:56:39.670 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-10 08:56:40.224 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-10 08:56:40.294 [http-nio-8080-exec-6] INFO  com.cj.aspect.LogAspect - Result: redirect:mnnu
+2020-11-10 08:56:40.306 [http-nio-8080-exec-7] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/mnnu', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.mnn', args=[]}
+2020-11-10 08:56:40.306 [http-nio-8080-exec-7] INFO  com.cj.aspect.LogAspect - Result: mnnu
+2020-11-10 08:57:13.977 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 28572 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 08:57:13.979 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 08:57:14.804 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 08:57:14.809 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 08:57:14.810 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 08:57:14.810 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 08:57:14.811 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 08:57:14.811 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 08:57:14.811 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 08:57:14.814 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 08:57:14.904 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 08:57:14.904 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 897 ms
+2020-11-10 08:57:15.241 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 08:57:15.296 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 08:57:15.509 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 08:57:15.526 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 08:57:15.533 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.952 seconds (JVM running for 2.755)
+2020-11-10 08:57:19.434 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 08:57:19.434 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 08:57:19.441 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-11-10 08:57:19.457 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 08:57:19.460 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 08:59:55.889 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 5704 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 08:59:55.891 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 08:59:56.693 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 08:59:56.698 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 08:59:56.699 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 08:59:56.699 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 08:59:56.700 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 08:59:56.700 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 08:59:56.700 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 08:59:56.703 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 08:59:56.792 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 08:59:56.792 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 865 ms
+2020-11-10 08:59:57.111 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 08:59:57.162 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 08:59:57.340 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 08:59:57.357 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 08:59:57.364 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.871 seconds (JVM running for 2.717)
+2020-11-10 09:00:01.761 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 09:00:01.761 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 09:00:01.766 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-10 09:00:01.782 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:00:01.785 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:00:02.600 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:00:02.600 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:00:06.178 [http-nio-8080-exec-3] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:00:06.178 [http-nio-8080-exec-3] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:00:06.749 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:00:06.750 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:12:48.226 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 23812 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 09:12:48.228 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 09:12:49.009 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 09:12:49.015 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:12:49.015 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 09:12:49.016 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 09:12:49.017 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 09:12:49.017 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 09:12:49.017 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 09:12:49.020 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 09:12:49.110 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 09:12:49.110 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 854 ms
+2020-11-10 09:12:49.438 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 09:12:49.491 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 09:12:49.664 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:12:49.681 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 09:12:49.688 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.879 seconds (JVM running for 2.666)
+2020-11-10 09:12:56.570 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 09:12:56.570 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 09:12:56.575 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-10 09:12:56.593 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:12:56.598 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:12:56.983 [http-nio-8080-exec-3] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:12:56.983 [http-nio-8080-exec-3] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:13:06.720 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@4e85ccb0, {}, org.apache.catalina.connector.RequestFacade@3175a536]}
+2020-11-10 09:13:06.731 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-10 09:13:06.850 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-10 09:13:06.969 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Result: redirect:mnnu
+2020-11-10 09:13:06.988 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/mnnu', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.mnn', args=[]}
+2020-11-10 09:13:06.988 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Result: mnnu
+2020-11-10 09:13:15.090 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123, org.apache.catalina.session.StandardSessionFacade@4e85ccb0, {}, org.apache.catalina.connector.RequestFacade@3175a536]}
+2020-11-10 09:13:15.091 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Result: redirect:index
+2020-11-10 09:13:43.173 [http-nio-8080-exec-10] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:13:43.173 [http-nio-8080-exec-10] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:13:43.268 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:13:43.269 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:13:56.166 [http-nio-8080-exec-3] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@33fa1ab7, {}, org.apache.catalina.connector.RequestFacade@3175a536]}
+2020-11-10 09:13:56.169 [http-nio-8080-exec-3] INFO  com.cj.aspect.LogAspect - Result: redirect:mnnu
+2020-11-10 09:13:56.174 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/mnnu', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.mnn', args=[]}
+2020-11-10 09:13:56.174 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Result: mnnu
+2020-11-10 09:14:53.349 [http-nio-8080-exec-9] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@33fa1ab7, {}, org.apache.catalina.connector.RequestFacade@3175a536]}
+2020-11-10 09:14:53.351 [http-nio-8080-exec-9] INFO  com.cj.aspect.LogAspect - Result: redirect:mnnu
+2020-11-10 09:14:53.358 [http-nio-8080-exec-10] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/mnnu', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.mnn', args=[]}
+2020-11-10 09:14:53.358 [http-nio-8080-exec-10] INFO  com.cj.aspect.LogAspect - Result: mnnu
+2020-11-10 09:16:42.265 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 26504 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 09:16:42.266 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 09:16:43.097 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 09:16:43.102 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:16:43.103 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 09:16:43.103 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 09:16:43.104 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 09:16:43.104 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 09:16:43.104 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 09:16:43.107 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 09:16:43.197 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 09:16:43.197 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 901 ms
+2020-11-10 09:16:43.532 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 09:16:43.582 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 09:16:43.757 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:16:43.774 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 09:16:43.781 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.969 seconds (JVM running for 2.861)
+2020-11-10 09:17:08.253 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 23888 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 09:17:08.255 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 09:17:09.019 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 09:17:09.025 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:17:09.025 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 09:17:09.025 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 09:17:09.026 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 09:17:09.026 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 09:17:09.027 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 09:17:09.031 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 09:17:09.119 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 09:17:09.119 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 837 ms
+2020-11-10 09:17:09.441 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 09:17:09.491 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 09:17:09.662 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:17:09.678 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 09:17:09.685 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.828 seconds (JVM running for 2.675)
+2020-11-10 09:17:14.684 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 09:17:14.685 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 09:17:14.689 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-11-10 09:17:14.726 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:17:14.730 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:17:23.477 [http-nio-8080-exec-7] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@4bd90f68, {}, org.apache.catalina.connector.RequestFacade@443efe46]}
+2020-11-10 09:17:23.488 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-10 09:17:23.603 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-10 09:17:23.622 [http-nio-8080-exec-7] INFO  com.cj.aspect.LogAspect - Result: redirect:mnnu
+2020-11-10 09:17:23.642 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/mnnu', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.mnn', args=[]}
+2020-11-10 09:17:23.642 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Result: mnnu
+2020-11-10 09:33:34.340 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 27284 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 09:33:34.342 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 09:33:35.104 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 09:33:35.109 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:33:35.109 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 09:33:35.110 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 09:33:35.110 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 09:33:35.111 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 09:33:35.111 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 09:33:35.115 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 09:33:35.206 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 09:33:35.207 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 837 ms
+2020-11-10 09:33:35.520 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 09:33:35.582 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 09:33:35.750 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:33:35.767 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 09:33:35.773 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.817 seconds (JVM running for 2.579)
+2020-11-10 09:33:44.383 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 09:33:44.383 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 09:33:44.388 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-10 09:33:44.404 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:33:44.408 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:33:51.050 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@c8bcef1, {}, org.apache.catalina.connector.RequestFacade@22d413cc]}
+2020-11-10 09:33:51.061 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-10 09:33:51.174 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-10 09:34:28.632 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 27560 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 09:34:28.634 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 09:34:29.394 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 09:34:29.400 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:34:29.400 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 09:34:29.400 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 09:34:29.401 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 09:34:29.401 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 09:34:29.402 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 09:34:29.405 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 09:34:29.494 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 09:34:29.494 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 831 ms
+2020-11-10 09:34:29.811 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 09:34:29.861 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 09:34:30.027 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:34:30.044 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 09:34:30.050 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.792 seconds (JVM running for 2.559)
+2020-11-10 09:34:37.761 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 09:34:37.761 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 09:34:37.766 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-10 09:34:37.780 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:34:37.784 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:34:44.087 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@3a4cea35, {}, org.apache.catalina.connector.RequestFacade@57f936e1]}
+2020-11-10 09:34:44.097 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-10 09:34:44.212 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-10 09:34:44.232 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Result: redirect:mnnu
+2020-11-10 09:34:44.252 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/mnnu', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.mnn', args=[]}
+2020-11-10 09:34:44.252 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Result: mnnu
+2020-11-10 09:34:52.412 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:34:52.412 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:34:52.515 [http-nio-8080-exec-6] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:34:52.516 [http-nio-8080-exec-6] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:34:58.435 [http-nio-8080-exec-7] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@5c6baa65, {}, org.apache.catalina.connector.RequestFacade@57f936e1]}
+2020-11-10 09:34:58.438 [http-nio-8080-exec-7] INFO  com.cj.aspect.LogAspect - Result: redirect:mnnu
+2020-11-10 09:34:58.445 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/mnnu', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.mnn', args=[]}
+2020-11-10 09:34:58.445 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Result: mnnu
+2020-11-10 09:35:30.563 [http-nio-8080-exec-9] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@5c6baa65, {}, org.apache.catalina.connector.RequestFacade@57f936e1]}
+2020-11-10 09:35:30.565 [http-nio-8080-exec-9] INFO  com.cj.aspect.LogAspect - Result: redirect:/
+2020-11-10 09:35:30.570 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:35:30.570 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:38:23.669 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 18384 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 09:38:23.672 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 09:38:24.510 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 09:38:24.515 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:38:24.516 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 09:38:24.516 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 09:38:24.517 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 09:38:24.517 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 09:38:24.517 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 09:38:24.520 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 09:38:24.607 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 09:38:24.607 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 894 ms
+2020-11-10 09:38:24.941 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 09:38:24.991 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 09:38:25.176 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:38:25.194 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 09:38:25.202 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.925 seconds (JVM running for 2.668)
+2020-11-10 09:38:43.371 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 09:38:43.371 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 09:38:43.376 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-11-10 09:38:43.390 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:38:43.396 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:38:54.762 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@765e63c2, {}, org.apache.catalina.connector.RequestFacade@4ab8d178]}
+2020-11-10 09:38:54.774 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-10 09:38:54.891 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-10 09:38:54.911 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Result: redirect:mnnu
+2020-11-10 09:38:54.931 [http-nio-8080-exec-3] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/mnnu', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.mnn', args=[]}
+2020-11-10 09:38:54.931 [http-nio-8080-exec-3] INFO  com.cj.aspect.LogAspect - Result: mnnu
+2020-11-10 09:39:10.085 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@765e63c2, {}, org.apache.catalina.connector.RequestFacade@4ab8d178]}
+2020-11-10 09:39:10.088 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Result: redirect:/
+2020-11-10 09:39:10.101 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:39:10.101 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:39:38.309 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 23876 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 09:39:38.311 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 09:39:39.085 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 09:39:39.091 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:39:39.091 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 09:39:39.091 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 09:39:39.092 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 09:39:39.092 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 09:39:39.093 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 09:39:39.095 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 09:39:39.182 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 09:39:39.182 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 837 ms
+2020-11-10 09:39:39.498 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 09:39:39.552 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 09:39:39.737 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:39:39.753 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 09:39:39.761 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.862 seconds (JVM running for 2.631)
+2020-11-10 09:40:31.002 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 09:40:31.002 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 09:40:31.007 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-11-10 09:40:31.021 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:40:31.025 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:40:41.663 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@4a88c136, {}, org.apache.catalina.connector.RequestFacade@6851198f]}
+2020-11-10 09:40:41.675 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-10 09:40:41.792 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-10 09:40:41.812 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Result: redirect:mnnu
+2020-11-10 09:40:41.831 [http-nio-8080-exec-6] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/mnnu', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.mnn', args=[]}
+2020-11-10 09:40:41.831 [http-nio-8080-exec-6] INFO  com.cj.aspect.LogAspect - Result: mnnu
+2020-11-10 09:40:43.891 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:40:43.891 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:40:53.186 [http-nio-8080-exec-3] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@4a88c136, {}, org.apache.catalina.connector.RequestFacade@b5cb0e]}
+2020-11-10 09:40:53.189 [http-nio-8080-exec-3] INFO  com.cj.aspect.LogAspect - Result: redirect:/
+2020-11-10 09:40:53.201 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:40:53.201 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:41:32.867 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:41:32.868 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:41:41.257 [http-nio-8080-exec-9] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@38f31ba2, {}, org.apache.catalina.connector.RequestFacade@6851198f]}
+2020-11-10 09:41:41.259 [http-nio-8080-exec-9] INFO  com.cj.aspect.LogAspect - Result: redirect:mnnu
+2020-11-10 09:41:41.263 [http-nio-8080-exec-10] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/mnnu', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.mnn', args=[]}
+2020-11-10 09:41:41.263 [http-nio-8080-exec-10] INFO  com.cj.aspect.LogAspect - Result: mnnu
+2020-11-10 09:42:34.961 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@38f31ba2, {}, org.apache.catalina.connector.RequestFacade@6851198f]}
+2020-11-10 09:42:34.963 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Result: redirect:/
+2020-11-10 09:42:34.969 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:42:34.969 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:44:22.442 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 33196 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 09:44:22.444 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 09:44:23.201 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 09:44:23.207 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:44:23.207 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 09:44:23.207 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 09:44:23.208 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 09:44:23.209 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 09:44:23.209 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 09:44:23.212 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 09:44:23.297 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 09:44:23.297 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 826 ms
+2020-11-10 09:44:23.614 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 09:44:23.668 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 09:44:23.898 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 09:44:23.915 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 09:44:23.921 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.857 seconds (JVM running for 2.633)
+2020-11-10 09:44:27.723 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 09:44:27.724 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 09:44:27.733 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-11-10 09:44:27.754 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:44:27.762 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:44:33.734 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@9ebc8d8, {}, org.apache.catalina.connector.RequestFacade@47aa945b]}
+2020-11-10 09:44:33.745 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-10 09:44:33.859 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-10 09:44:33.880 [http-nio-8080-exec-5] INFO  com.cj.aspect.LogAspect - Result: redirect:mnnu
+2020-11-10 09:44:33.900 [http-nio-8080-exec-3] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/mnnu', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.mnn', args=[]}
+2020-11-10 09:44:33.900 [http-nio-8080-exec-3] INFO  com.cj.aspect.LogAspect - Result: mnnu
+2020-11-10 09:44:46.288 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@409c13d9, {}, org.apache.catalina.connector.RequestFacade@47aa945b]}
+2020-11-10 09:44:46.291 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Result: redirect:/
+2020-11-10 09:44:46.296 [http-nio-8080-exec-10] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:44:46.296 [http-nio-8080-exec-10] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:44:59.863 [http-nio-8080-exec-6] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@409c13d9, {}, org.apache.catalina.connector.RequestFacade@47aa945b]}
+2020-11-10 09:44:59.864 [http-nio-8080-exec-6] INFO  com.cj.aspect.LogAspect - Result: redirect:mnnu
+2020-11-10 09:44:59.870 [http-nio-8080-exec-7] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/mnnu', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.mnn', args=[]}
+2020-11-10 09:44:59.870 [http-nio-8080-exec-7] INFO  com.cj.aspect.LogAspect - Result: mnnu
+2020-11-10 09:47:43.692 [http-nio-8080-exec-3] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@9ebc8d8, {}, org.apache.catalina.connector.RequestFacade@47aa945b]}
+2020-11-10 09:47:43.693 [http-nio-8080-exec-3] INFO  com.cj.aspect.LogAspect - Result: redirect:/
+2020-11-10 09:47:43.705 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 09:47:43.705 [http-nio-8080-exec-4] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 09:48:04.347 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@9ebc8d8, {}, org.apache.catalina.connector.RequestFacade@5540d3b4]}
+2020-11-10 09:48:04.349 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Result: redirect:mnnu
+2020-11-10 09:48:04.361 [http-nio-8080-exec-9] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/mnnu', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.mnn', args=[]}
+2020-11-10 09:48:04.362 [http-nio-8080-exec-9] INFO  com.cj.aspect.LogAspect - Result: mnnu
+2020-11-10 10:24:09.362 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 4428 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 10:24:09.364 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 10:24:10.204 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 10:24:10.211 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 10:24:10.211 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 10:24:10.212 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 10:24:10.213 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 10:24:10.213 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 10:24:10.213 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 10:24:10.216 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 10:24:10.306 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 10:24:10.306 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 912 ms
+2020-11-10 10:24:10.654 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 10:24:10.705 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 10:24:10.888 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 10:24:10.907 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 10:24:10.916 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.925 seconds (JVM running for 2.821)
+2020-11-10 10:24:28.532 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 34140 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 10:24:28.534 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 10:24:29.350 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 10:24:29.356 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 10:24:29.356 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 10:24:29.357 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 10:24:29.358 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 10:24:29.358 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 10:24:29.358 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 10:24:29.361 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 10:24:29.450 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 10:24:29.450 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 889 ms
+2020-11-10 10:24:29.815 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 10:24:29.866 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 10:24:30.045 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 10:24:30.061 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 10:24:30.068 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.961 seconds (JVM running for 2.767)
+2020-11-10 10:25:08.874 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 10:25:08.874 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 10:25:08.884 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-11-10 10:25:08.899 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 10:25:08.903 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 10:25:09.729 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 10:25:09.729 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 10:25:14.378 [http-nio-8080-exec-7] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@50fb2da8, {}, org.apache.catalina.connector.RequestFacade@50751c59]}
+2020-11-10 10:25:14.390 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-10 10:25:14.505 [http-nio-8080-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-10 10:25:14.527 [http-nio-8080-exec-7] INFO  com.cj.aspect.LogAspect - Result: redirect:mnnu
+2020-11-10 10:25:14.548 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/mnnu', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.mnn', args=[]}
+2020-11-10 10:25:14.548 [http-nio-8080-exec-8] INFO  com.cj.aspect.LogAspect - Result: mnnu
+2020-11-10 10:25:28.390 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 10:25:28.390 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 10:25:33.993 [http-nio-8080-exec-9] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/login', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.login', args=[陈键, 123456, org.apache.catalina.session.StandardSessionFacade@50fb2da8, {}, org.apache.catalina.connector.RequestFacade@23c271a9]}
+2020-11-10 10:25:33.995 [http-nio-8080-exec-9] INFO  com.cj.aspect.LogAspect - Result: redirect:/
+2020-11-10 10:25:34.008 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 10:25:34.008 [http-nio-8080-exec-2] INFO  com.cj.aspect.LogAspect - Result: index
+2020-11-10 10:28:58.497 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 13672 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 10:28:58.499 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 10:28:59.308 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 10:28:59.313 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 10:28:59.314 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 10:28:59.314 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 10:28:59.315 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 10:28:59.315 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 10:28:59.315 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 10:28:59.318 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 10:28:59.412 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 10:28:59.413 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 885 ms
+2020-11-10 10:28:59.751 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 10:28:59.803 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 10:28:59.958 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-11-10 10:28:59.985 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 10:29:00.003 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 10:29:00.016 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.943 seconds (JVM running for 2.792)
+2020-11-10 10:29:29.197 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 13060 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 10:29:29.199 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 10:29:30.001 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 10:29:30.006 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 10:29:30.007 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 10:29:30.007 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 10:29:30.008 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 10:29:30.008 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 10:29:30.008 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 10:29:30.011 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 10:29:30.101 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 10:29:30.102 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 866 ms
+2020-11-10 10:29:30.435 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 10:29:30.489 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 10:29:30.654 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-11-10 10:29:30.682 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 10:29:30.698 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 10:29:30.792 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.974 seconds (JVM running for 2.767)
+2020-11-10 10:30:14.838 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 16060 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 10:30:14.839 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 10:30:15.781 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 10:30:15.786 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 10:30:15.787 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 10:30:15.787 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 10:30:15.789 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 10:30:15.789 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 10:30:15.789 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 10:30:15.792 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 10:30:15.894 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 10:30:15.894 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1012 ms
+2020-11-10 10:30:16.252 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 10:30:16.314 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 10:30:16.500 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-11-10 10:30:16.530 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 10:30:16.547 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 10:30:16.555 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 2.149 seconds (JVM running for 3.01)
+2020-11-10 10:30:22.990 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 24344 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 10:30:22.992 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 10:30:23.883 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 10:30:23.893 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 10:30:23.894 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 10:30:23.895 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 10:30:23.896 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 10:30:23.896 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 10:30:23.896 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 10:30:23.900 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 10:30:24.017 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 10:30:24.018 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 989 ms
+2020-11-10 10:30:24.432 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 10:30:24.486 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 10:30:24.654 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-11-10 10:30:24.686 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 10:30:24.703 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 10:30:24.712 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 2.192 seconds (JVM running for 3.018)
+2020-11-10 10:34:15.250 [main] INFO  com.cj.SystemApplication - Starting SystemApplication on LAPTOP-QHBM548B with PID 22764 (D:\A_IDEA_data\mnnu_system\target\classes started by dream in D:\A_IDEA_data\mnnu_system)
+2020-11-10 10:34:15.252 [main] INFO  com.cj.SystemApplication - The following profiles are active: dev
+2020-11-10 10:34:16.030 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-11-10 10:34:16.035 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-11-10 10:34:16.036 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 10:34:16.036 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-11-10 10:34:16.037 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-11-10 10:34:16.037 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-10 10:34:16.037 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-10 10:34:16.040 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-11-10 10:34:16.127 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 10:34:16.127 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 848 ms
+2020-11-10 10:34:16.534 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 10:34:16.586 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-11-10 10:34:16.736 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-11-10 10:34:16.767 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-11-10 10:34:16.783 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-10 10:34:16.791 [main] INFO  com.cj.SystemApplication - Started SystemApplication in 1.935 seconds (JVM running for 2.722)
+2020-11-10 10:41:07.644 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 10:41:07.644 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 10:41:07.650 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-11-10 10:41:07.664 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Visitor :visitor{url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.cj.controller.LoginController.logins', args=[]}
+2020-11-10 10:41:07.667 [http-nio-8080-exec-1] INFO  com.cj.aspect.LogAspect - Result: index
